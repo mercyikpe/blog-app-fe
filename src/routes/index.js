@@ -30,11 +30,11 @@ const Index = () => {
             <Route path="/new" element={<CreatePost />}></Route>
             <Route path="/forget-password" element={<ForgetPassword />}></Route>
             <Route
-              path="/api/users/activate/:token"
+              path="/activate/:token"
               element={<Activate />}
             ></Route>
             <Route
-              path="/api/users/reset-password/:token"
+              path="/reset-password/:token"
               element={<ResetPassword />}
             ></Route>
           </Routes>
