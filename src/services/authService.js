@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // make http request, send the data back and set the data in the localhost
-const API_URL = "http://127.0.0.1:8080/api/users";
+// const API_URL = "http://127.0.0.1:8080/api/users";
+const API_URL = "https://blog-app-be-6ezm.onrender.com/api/users";
 
 // Register user
 const registerRequest = async (userData) => {

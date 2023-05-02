@@ -1,7 +1,8 @@
 const BlogPostCard = (props) => {
     const { postTitle, postImage, postBody, createdAt } = props.blog;
   
-    const imageUrl = "http://127.0.0.1:8080/" + postImage;
+    // const imageUrl = "http://127.0.0.1:8080/" + postImage;
+    const imageUrl = "https://blog-app-be-6ezm.onrender.com/" + postImage;
   
     return (
       <div className="rounded overflow-hidden shadow-lg flex flex-col">

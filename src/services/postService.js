@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // make http request, send the data back and set the data in the localhost
-const API_URL = "http://127.0.0.1:8080/api/blogs";
+const API_URL = "https://blog-app-be-6ezm.onrender.com/api/blogs";
 
 
 // Get all posts

@@ -13,7 +13,8 @@ function Profile() {
     }
   }, [user, navigate]);
 
-  const imageUrl = "http://127.0.0.1:8080/" + profilePicture;
+  // const imageUrl = "http://127.0.0.1:8080/" + profilePicture;
+  const imageUrl = "https://blog-app-be-6ezm.onrender.com/" + profilePicture;
 
   return (
     <section className="mt-[10%] flex items-center justify-center">
